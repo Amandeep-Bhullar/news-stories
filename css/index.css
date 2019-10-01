@@ -3,12 +3,14 @@ body {
 }
 .stories {
  text-align: center; 
+ display: grid;/*grid apply here*/
+ grid-template-columns: auto auto auto;
 }
 .news {
   background-color: black;
-  display: inline-block;
+  /* display: inline-block; */
   overflow: hidden;
-  max-width: 30em;
+
   margin: 0 1em;
   text-align: left;
   padding:0 1em;
@@ -53,7 +55,7 @@ body {
 }
 
   .lastlink li a{
-  color: white;
+  color:black;
 }
 
 .active{
